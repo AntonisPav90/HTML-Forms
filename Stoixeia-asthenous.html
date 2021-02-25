@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-7"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>e-health</title>
+	<meta name="title" content="ΥΓΕΙΟΝΟΜΙΚΗ ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ" />
+	<meta name="author" content="Administrator" />
+	<meta name="description" content="1η Υ.ΠΕ. Αττικής, ΥΠΕ, υγεία, υγειονομική περιφέρεια, υπουργείο υγείας, κοινωνική αλληλεγγύη, ψυχική υγεία, νοσοκομεία, μονάδες υγείας, μονάδες κοινωνικής φροντίδας, ιδρύματα, κέντρα υγείας, περιφερειακά κέντρα υγείας, κοινωνικές δομές, ψυχοκοινωνικές δομές, απογευματινά ιατρεία, εξωτερικά ιατρεία." />
+	<meta name="keywords" content="1η Υ.ΠΕ. Αττικής, ΥΠΕ, υγεία, υγειονομική περιφέρεια, υπουργείο υγείας, κοινωνική αλληλεγγύη, ψυχική υγεία, νοσοκομεία, μονάδες υγείας, μονάδες κοινωνικής φροντίδας, ιδρύματα, κέντρα υγείας, περιφερειακά κέντρα υγείας, κοινωνικές δομές, ψυχοκοινωνικές δομές, απογευματινά ιατρεία, εξωτερικά ιατρεία." />
+	<link rel="shortcut icon" href="http://www.tharrosnews.gr/sites/default/files/field/image/ygeia_0.jpg " />
+
+	<style>
+	h1  {
+		font-size:40px;
+		}
+	table
+		{
+		position:absolute;
+		left:250px;
+		top:150px;
+		font-size:20px;
+		}
+	div
+		{
+		border:2px solid #a1a1a1;
+		padding:50px 40px; 
+		background-image:url('3.jpg');
+		width:80px;
+		height:40px;
+		border-radius:25px;
+		position:absolute;
+		left:35px;
+		top:10px;
+		font-size:20px;
+		}
+	li
+		{
+		list-style:square;
+		padding-left: 1em; 
+		text-indent: -.7em;
+		color:blue;
+		}
+		}		
+	form 
+		{
+		border: 1px solid #c6c7cc;
+		border-radius: 5px;
+		font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+		overflow: hidden;
+		width: 300px;
+		}
+		input 
+		{
+		border-radius: 5px;
+		font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin: 0;
+		}
+		
+	</style>
+</head>
+<body background="Blue2.jpg" >
+	<div id="content" style="background-image:url('3.jpg'); height:500px; width:750px; float:left; display: inline-block; position: fixed; top: 0; bottom: 0; left: 0; right: 0; margin: auto;">	
+		
+	<img src="Health1.jpg" alt="medical" style="float:left" width="120" height="120">
+	<section>
+	<article>
+	<header>
+		<h2>Στοιχεία Ασθενούς</h2>		
+	</header>
+	<p> Εισάγετε τα στοιχεία του ασθενούς εδώ :</p>
+	<tbody>
+	<form submit="myFunction()"action="Form_6_doctor.html" >
+		Κωδικός: <input type="text" name="usr_code" required="reguired"><br>
+		Ονοματεπώνυμο: <input type="text" name="usr_name" placeholder="Όνομα και Επώνυμο" required="reguired"><br>
+		Όνομα πατρός: <input type="text" name="father_name" required="reguired"><br>
+		Όνομα μητρός: <input type="text" name="mother_name"><br>
+		Κωδικός ασφαλιστικού φορέα: <input type="text" name="security_code" required="reguired"><br>
+		Φύλο: <input type="text" name="sex" required="reguired"><br>
+		Ημερομηνία γέννησης: <input type="date" name="birth_date" required="reguired"><br>
+		Διεύθυνση κατοικίας: <input type="text" name="address"placeholder="Οδός, Αριθμός, Ταχυδρομικός κώδικας, Περιοχή " size="50" required="reguired"><br>
+		Αριθμός τηλεφώνου κατοικίας: <input type="text" name="home_number" required="reguired"><br>
+		Αριθμός τηλεφώνου εργασίας: <input type="text" name="office_number" ><br>
+		Αριθμός κινητού: <input type="text" name="mob_number" ><br>
+	
+		<input class="btn" type="submit" name="submit" value="Υποβολή">	
+	</form>
+	<tbody>
+	</article>
+	</section>
+	</div>
+</body>
+</html>
